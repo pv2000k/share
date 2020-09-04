@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffff">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:layout_below="@+id/et_username"
+        android:inputType="textPassword"
+        android:hint="Date of birth"/>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_below="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Submit"
+        android:layout_marginTop="65dp"
+        android:textStyle="bold" />
+</RelativeLayout>
